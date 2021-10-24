@@ -30,6 +30,9 @@
         }
     }
     .ser_reward{
+        img{
+            height: 150px;
+        }
         h5{
             @include fnts(#000, 17px, 700, $Nunito);
             margin-top: 40px;

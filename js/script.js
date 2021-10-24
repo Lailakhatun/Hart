@@ -93,7 +93,9 @@ $(function(){
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay:true
+            autoplay:true,
+            arrows:false,
+            dots:false
           }
         }
       ]

@@ -339,6 +339,10 @@ html {
   margin-top: 30px;
 }
 
+#reward_part .ser_reward img {
+  height: 150px;
+}
+
 #reward_part .ser_reward h5 {
   color: #000;
   font-size: 17px;
@@ -1452,11 +1456,24 @@ input.checkbox {
   color: #fff !important;
 }
 
-.dark #reward_part h2, #development_part .common_heading h2 {
+.dark #reward_part h2,
+#development_part .common_heading h2 {
   color: #000 !important;
 }
 
-.dark #reward_part .dark #reward_part p, .dark #reward_part #development_part p, #development_part .common_heading .dark #reward_part p, #development_part .common_heading #development_part p {
+.dark #development_part p {
+  color: #000 !important;
+}
+
+.dark #reward_part p {
+  color: #000 !important;
+}
+
+.dark p {
+  color: #000 !important;
+}
+
+.dark span {
   color: #000 !important;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,7 @@
 input.checkbox {
     display: none;
 }
+
 .color_mode {
     background: #f53939;
     position: fixed;
@@ -68,20 +69,34 @@ input.checkbox {
 }
 
 .dark {
-    background: #575757;
+    background: #9e9e9e;
 }
-.dark .common_heading{
-    h2{
-        color:#fff !important;
+
+.dark .common_heading {
+    h2 {
+        color: #fff !important;
     }
 }
-.dark #reward_part,#development_part .common_heading{
-h2{
+
+.dark #reward_part,
+#development_part .common_heading {
+    h2 {
+        color: #000 !important;
+    }
+}
+
+.dark #development_part p {
+
     color:#000 !important;
 }
-.dark #reward_part,#development_part{
-    p{
-        color:#000 !important;
-    }
+.dark #reward_part p{
+    color:#000 !important;
 }
+
+.dark p {
+    color: #000 !important;
+}
+
+.dark span {
+    color: #000 !important;
 }
